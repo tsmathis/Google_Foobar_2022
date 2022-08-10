@@ -1,3 +1,4 @@
+<p align="justify">
 # Google_Foobar_2022
 
 Questions from the challenges I received while participating in Google's Foobar challenge in August 2022.
@@ -60,3 +61,5 @@ Output:
 **Question 2:**
 
 **Question 3:**
+
+</p>
