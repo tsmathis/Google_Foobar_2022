@@ -15,14 +15,14 @@ Repeat until the value is consumed.
 
 ## Challenge 2
 
-**Question 1:**
+**Question 1:**  
 Given a list of integers, return the largest number that is divisible by three that can be made using the numbers in the list.
 Not every number in the list needs to be used. Example input: [4, 0, 9, 6, 3], Output: 9630
 
 *Solution:* Brute force solution is to just take every permutation of every subset of numbers in the list. There probably is a more
 clever solution.
 
-**Question 2:**
+**Question 2:**  
 Given an 8x8 grid with positions labeled 0 - 63, a starting position, and a goal, return the least number of moves to reach the goal. Only caveat is that you can only move using the "L-shape" pattern a knight uses in chess, i.e., move two squares in any direction vertically followed by one square horizontally, or two squares in any direction horizontally followed by one square vertically.
 Example input: (start=0, goal=1), Output: 3
 
@@ -30,7 +30,7 @@ Example input: (start=0, goal=1), Output: 3
 
 ## Challenge 3
 
-**Question 1:**
+**Question 1:**  
 Prepare the Bunnies' Escape
 
 You're awfully close to destroying the LAMBCHOP doomsday device and freeing Commander Lambda's bunny workers, but once they're free of 
