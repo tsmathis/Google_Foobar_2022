@@ -57,7 +57,7 @@ Output:
     11
 
 *Solution:* Utilized Dijkstra's algorithm for a simple weighted graph search. Working backwards from the goal and iteratively using the
-removable wall choices in the map pool garauntees success.
+removable wall choices in the map pool guarantees success.
 
 **Question 2:**
 
