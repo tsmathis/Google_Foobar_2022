@@ -18,6 +18,7 @@ def coded_message(L):
     return 0
 
 # Question 2
+
 from collections import deque
 
 def chess_board_BFS(src, dest):
