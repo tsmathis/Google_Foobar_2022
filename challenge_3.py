@@ -1,3 +1,5 @@
+# Question 1 - Prepare the Bunnies' Escape
+
 import copy
 from collections import OrderedDict
 
@@ -71,3 +73,32 @@ def solution(maze):
         paths.append(d)
 
     return min(paths)
+
+
+# Question 2 - Find the Access Codes
+
+def count_triplets(l):
+    c = [0] * len(l)
+    triplet_count = 0
+    for i in range(0,len(l)):
+        for j in range(0, i):
+            if l[i] % l[j] == 0:
+                c[i] = c[i] + 1
+                triplet_count = triplet_count + c[j]
+    return triplet_count
+
+
+# Question 3 - Fuel Injection Perfection
+
+def fuel_injection(num: str):
+    pellets = int(num)
+    steps = 0
+    while pellets > 1:
+        if pellets % 2 == 0:             
+            pellets = pellets // 2
+        elif pellets == 3 or pellets % 4 == 1: 
+            pellets = pellets - 1
+        else:                      
+            pellets = pellets + 1
+        steps += 1
+    return steps
