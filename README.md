@@ -8,7 +8,7 @@ for those questions.
 
 ## Challenge 1
 
-Given an amount material (integer), return a list of the possible squares that can be made using that amount of material.
+Given an amount of material (integer), return a list of the possible squares that can be made using that amount of material.
 The list should be in descending order. Example input: 12, Output: [9, 1, 1, 1]
 
 *Solution:* Since each output needs to be a square, taking the square root of the value will lead to the largest square possible.
