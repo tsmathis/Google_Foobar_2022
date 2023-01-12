@@ -3,7 +3,7 @@
 <p align="justify">
 Questions from the challenges I received while participating in Google's Foobar challenge in August 2022.
 Brief descriptions of the thought process for my solutions are also provided.
-Didn't bother copying the exact questions for the first two challenges so I only have condensed descriptions
+Didn't copy the exact questions for the first two challenges so I only have condensed descriptions
 for those questions.
 
 ## Challenge 1
